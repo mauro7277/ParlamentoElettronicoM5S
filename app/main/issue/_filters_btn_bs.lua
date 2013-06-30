@@ -122,7 +122,7 @@ ui.container{ attr = { class = "row-fluid btn_box_bottom"}, content = function()
 --              datatarget="#state_flt #interest_flt #scope_flt"
             },
             content = function()
-              ui.heading{ level=4, content = _"APPLY FILTERS"  }
+              ui.heading{ level=4, content = _"CLOSE FILTERS"  }
             end
           }
         end }
@@ -142,7 +142,7 @@ ui.container{ attr = { class = "row-fluid btn_box_bottom"}, content = function()
               ftl_btns = false 
             },
             content = function()
-              ui.heading{ level=4, content = _"REMOVE FILTERS"  }
+              ui.heading{ level=4, content = _"CLOSE FILTERS"  }
             end
           }
         end }

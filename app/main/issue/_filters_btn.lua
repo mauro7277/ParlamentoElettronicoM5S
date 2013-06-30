@@ -103,7 +103,7 @@ ui.container{ attr = { id = "", class = ""}, content = function()
         attr = { id = "flt_btn_delete", class = "button orange"},
         module = module, view = view, id = id,
         params = { state = default_state, orderby = orderby, desc = desc, interest = default_interest, scope = default_scope, ftl_btns = false },
-        content = _"REMOVE FILTERS"
+        content = _"CLOSE FILTERS"
       }
       if btns['state'] then
         ui.container{  attr = { class = "flt_btn_box"}, content = function()
